@@ -26,13 +26,15 @@
 
 .title {
     grid-area: t;
-    font-size: 5vw;
-    /* font-size: 210vw; */
-    -webkit-text-stroke: .2vw black;
+    font-size: 7.5vw;
+    -webkit-text-stroke: 1px black;
 }
 
 #gridContainer {
     display: grid;
-    grid-template-areas: '1 1 1 1 1';
+    grid-template-areas:
+        '1 1 1'
+        '1 1 1'
+        '1 1 1';
     text-align: center;
 }
