@@ -1,0 +1,10 @@
+header {
+    font-size: x-large;
+    text-align: center;
+}
+
+#logo {
+    position:absolute;
+    width:25%;
+    top:0px;
+}
