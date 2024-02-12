@@ -1,13 +1,22 @@
+@font-face {
+    font-family: myFont;
+    src: url("pricedown bl.otf");
+}
+
+* {
+    font-family: myFont;
+ }
+
 .top {
+    grid-area: h;
     margin:auto;
     width: 100%;
     display:grid;
-    grid-template-areas: 
-        "l t";
+    grid-template-areas: 'l t';
     grid-template-columns: 25% 50%;
     border-radius: 10px;
     border-style: solid;
-    background-color: blue;
+    background-color: black;
     color: white;
     align-items: center;
     text-align: center;
@@ -25,16 +34,18 @@
 }
 
 .title {
+    /* font-family: myFont; */
     grid-area: t;
     font-size: 7.5vw;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 5px black;
 }
 
 #gridContainer {
     display: grid;
     grid-template-areas:
-        '1 1 1'
+        'h h h'
         '1 1 1'
         '1 1 1';
     text-align: center;
 }
+
