@@ -45,7 +45,16 @@
     grid-template-areas:
         'h h h'
         '1 1 1'
+        '1 1 1'
         '1 1 1';
-    text-align: center;
+    /* text-align: center; */
 }
 
+.num {
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: blueviolet;
+    margin: 50px;
+    /* margin-top: 5px; */
+}
