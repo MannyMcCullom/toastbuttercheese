@@ -1,4 +1,4 @@
-const links = {"Manny's Beats (mp3)":"https://drive.google.com/drive/folders/1saD6x3hTlTXvXWP2psnv20SiLAL73AVI?usp=sharing",
+const music = {"Cheesy Man (mp3)":"https://drive.google.com/drive/folders/1Qwt6ayV0liPIMKs6lF9uvXOT1arupG8r?usp=sharing",
 thing2:"https://drive.google.com/drive/folders/1xW1u4kVKdd8U_7RHpURQRiCacQ-mVQDB?usp=sharing"};
 
 console.log("here");
@@ -9,7 +9,7 @@ const grid = document.querySelector("#gridContainer");
 // div.setAttribute("href", links.thing1);
 // grid.append(div);
 
-function addLinks (obj) {
+function musicLinks (obj) {
     for (prop in obj) {
         console.log(obj[prop]);
         const div = document.createElement("a");
@@ -20,4 +20,4 @@ function addLinks (obj) {
     }
 }
 
-addLinks(links);
+musicLinks(music);
