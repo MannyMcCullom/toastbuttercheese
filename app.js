@@ -1,4 +1,4 @@
-const links = {"beat pack":"https://drive.google.com/file/d/1dj5L5odwaHNIWrxQR8vjed9vMPI6wrK4/view?usp=drive_link",
+const links = {"Manny's Beats (mp3)":"https://drive.google.com/drive/folders/1saD6x3hTlTXvXWP2psnv20SiLAL73AVI?usp=sharing",
 thing2:"https://drive.google.com/drive/folders/1xW1u4kVKdd8U_7RHpURQRiCacQ-mVQDB?usp=sharing"};
 
 console.log("here");
