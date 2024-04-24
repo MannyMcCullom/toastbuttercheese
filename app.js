@@ -1,5 +1,7 @@
-const music = {"Cheesy Man (mp3)":"https://drive.google.com/drive/folders/1Qwt6ayV0liPIMKs6lF9uvXOT1arupG8r?usp=sharing",
-thing2:"https://drive.google.com/drive/folders/1xW1u4kVKdd8U_7RHpURQRiCacQ-mVQDB?usp=sharing"};
+const music = {"Cheesy Man (MP3)":"https://drive.google.com/drive/folders/1cDy9u0MOV6GGweV4cyCTOMlaoIs6_q9x?usp=drive_link",
+    "Cheesy Man (FLAC)":"https://drive.google.com/drive/folders/1boWtM_QllTnIOruRUJKCVadOz6qrUXgb?usp=drive_link",
+    "Cheesy Man (AIFF)":"https://drive.google.com/drive/folders/1zgegDesKIop46S5iFymYPNIMwx_XMUit?usp=drive_link"
+    };
 
 console.log("here");
 const grid = document.querySelector("#gridContainer");
