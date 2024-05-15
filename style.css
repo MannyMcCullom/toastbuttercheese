@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-    margin: 100px;
+    margin-top: 10%;
     display: inline-block;
     width: fit-content;
     text-align: center;
