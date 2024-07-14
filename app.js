@@ -3,10 +3,9 @@
 // Initial Code--------------------------------------------------------------------------------------------
 
 // CheesyMan Album
-const cheesyManLinks = {"Cheesy Man (MP3)":"https://drive.google.com/drive/folders/1cDy9u0MOV6GGweV4cyCTOMlaoIs6_q9x?usp=drive_link",
-    "Cheesy Man (FLAC)":"https://drive.google.com/drive/folders/1boWtM_QllTnIOruRUJKCVadOz6qrUXgb?usp=drive_link",
-    "Cheesy Man (AIFF)":"https://drive.google.com/drive/folders/1zgegDesKIop46S5iFymYPNIMwx_XMUit?usp=drive_link"
+const cheesyManLinks = {"Cheesy Man (MP3)":"https://drive.google.com/drive/folders/1Qwt6ayV0liPIMKs6lF9uvXOT1arupG8r?usp=drive_link"
 };
+
 const cheesyMan = {"cover": "/Cheesy Man (Album Cover).jpg", "links": cheesyManLinks};
 
 const musicCards = document.createElement("div");
