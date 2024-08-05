@@ -6,7 +6,9 @@
 const cheesyManLinks = {"Cheesy Man (MP3)":"https://drive.google.com/drive/folders/1Qwt6ayV0liPIMKs6lF9uvXOT1arupG8r?usp=drive_link"
 };
 
-const cheesyMan = {"cover": "/Cheesy Man (Album Cover).jpg", "links": cheesyManLinks};
+const cheesyMan = {"cover": "assets/Cheesy Man (Album Cover).jpg", "links": cheesyManLinks};
+
+// const audio = new Audio("assets/05_pspsps_ToastButterCheese.mp3");
 
 const musicCards = document.createElement("div");
 musicCards.classList.add("musicCards");
@@ -31,9 +33,31 @@ function addLinks (obj, el) {
         el.append(div);
         const br = document.createElement("br");
         el.append(br);
+        const audio = new Audio("assets/05_pspsps_ToastButterCheese.mp3");
+        const play = document.createElement("button");
+        const stop = document.createElement("button");
+        play.innerHTML = "Play";
+        stop.innerHTML = "Stop";
+        play.addEventListener("click", ()=>{
+            audio.play();
+        })
+        stop.addEventListener("click", ()=>{
+            audio.load();
+        })
+        el.append(play);
+        el.append(stop);
+
     }
 }
 
+// fnwesoilnvfweoinv
+function playMusic(thing) {
+    thing.play();
+}
+
+function stopMusic(thing) {
+    thing.load();
+}
 // This function moves card on screen.
 function addCard(el) {
     el.style.setProperty("left", `0px`);
